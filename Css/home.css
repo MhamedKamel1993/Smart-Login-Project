@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #24353f;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: rgb(23, 162, 184);
+  font-size: 50px;
+}
+.group {
+  height: 50vh;
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+a{
+  text-decoration: none;
+  
+}

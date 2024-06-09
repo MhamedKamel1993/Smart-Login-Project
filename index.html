@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login page</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="Css/bootstrap.min.css" />
+    <!-- Css -->
+    <link rel="stylesheet" href="Css/style.css" />
+  </head>
+  <body>
+    <form id="Login">
+      <div class="container my-5 mx-auto text-center">
+        <div class="group m-auto w-75 p-5">
+          <h1 class="text-info my-3">Smart Login System</h1>
+          <input
+            type="text"
+            id="UserEmail"
+            placeholder="Enter your mail"
+            class="form-control mb-3"
+          />
+
+          <input
+            type="password"
+            id="Userpassword"
+            placeholder="Pass ex. (8 char , Abc123...)"
+            class="form-control mb-3"
+          />
+          <div id="inputsAlert" class="alert alert-success d-none">
+            All inputs are required
+          </div>
+          <div id="weldoneAlert" class="alert alert-success d-none">
+            Well done
+          </div>
+          <div id="block" class="alert alert-success d-none">
+            Sorry,the mail is exist
+          </div>
+          <div id="userblock" class="alert alert-success d-none">
+            Sorry,the user is not exist, please signup
+          </div>
+          <button id="btnn" class="btn btn-outline-info w-100 py-2">
+            Login
+          </button>
+          <p class="text-light py-4">
+            Don't have an account?
+            <a href="signup.html">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </form>
+
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #24353f;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: rgb(23, 162, 184);
+  font-size: 50px;
+}
+.group {
+  height: 75vh;
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+input {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
+input::placeholder {
+  color: rgb(182, 182, 182) !important;
+}
+
+input:focus {
+  box-shadow: 0 0 0 0 transparent !important;
+}
